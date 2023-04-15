@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background image */
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(media/shoes.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    visibility: visible;
+}
+
+/* White form container */
+.form-container{
+    width: 45rem;
+    height: 75rem;
+    position: relative;
+    margin: 9% auto;
+    background: #fff;
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+/* Button at the top */
+.button-box{
+    width: 40rem;
+    margin: 6rem auto;
+    position: relative;
+    box-shadow: 0 0 0.1em 0.1rem rgba(0,0,0,0.1);
+    border-radius: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.top-btn{
+    padding: 1rem 6rem;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#highlighted-btn{
+    top:0;
+    left: 20rem;
+    position: absolute;
+    width: 20rem;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 213, 0),rgb(254, 178, 2));
+    border-radius: 10rem;
+    transition: 0.5s;
+}
+span:hover{
+    transition: 0.1s;
+    font-weight: 800;
+}
+.reg-hover:hover{
+    color: white;
+}
+
+/* login form */
+.input-group{
+    position: relative;
+    margin: auto;
+    width: 70%;
+}
+.input-field{
+    color: #777;
+    width: 100%;
+    padding: 0.3rem 0.3rem;
+    margin: 0.7rem auto;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1 solid #999;
+    outline: none;
+    background: transparent;
+    font-size: 2.5rem;
+}   
+
+/* check box */
+.checkbox-container{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.checkbox{
+    transform: scale(2);
+}
+p{
+    color: #777;
+    font-size: 1.5rem;
+}
+
+/* login and reset button */
+.register-container{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.register-btn{
+    width: 85%;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background: linear-gradient(to right, rgb(255, 213, 0),rgb(254, 178, 2));
+    border: 0;
+    outline: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    box-shadow: 0 0 0.1em 0.1em rgba(0,0,0,0.1);
+}
+.reset-btn{
+    width: 85%;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background: linear-gradient(to right, rgb(255, 213, 0),rgb(254, 178, 2));
+    border: 0;
+    outline: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    box-shadow: 0 0 0.1rem 0.1rem rgba(0,0,0,0.1);
+}
+.resgister-hover:hover{
+    color: white;
+}
+
+/* popup */
+.popup{
+    background: white;
+    width: 50rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 2rem 2rem;
+    border: solid 0.3rem black;
+    transition: 0.5s;
+}
+.return-btn{
+    width: 85%;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background: linear-gradient(to right, rgb(255, 213, 0),rgb(254, 178, 2));
+    border: 0;
+    outline: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.1em 0.1rem rgba(0,0,0,0.1);
+}
+h2{
+    font-size: 5rem;
+    margin: 1rem;
+}
+#pop{
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1000px){
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    html {
+        font-size: 75%;
+    }
+}

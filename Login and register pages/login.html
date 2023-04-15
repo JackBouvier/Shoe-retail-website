@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Login And Registration Form</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/e1e3b55e7b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background">
+        <div class="form-container">
+            
+            <div class="button-box">
+                <div id="highlighted-btn"></div>
+                <button type="button" class="top-btn" onclick="location.href='login.html'"> <div class="log-hover">Log In</div> </button>
+                <button type="button" class="top-btn" onclick="location.href='register.html'"><span>Register</span></button>
+            </div>
+            
+            <div class="icons">
+                <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i> </a>
+                <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i> </a>
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i> </a>
+                <a href="https://www.google.com/"> <i class="fa-brands fa-google"></i> </a>
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="checkbox">
+                    <p> Remember Me</p>
+                </div>
+                <button type="submit" class="login-btn" onclick="location.href='blank.html'"><div class="login-hover">Login</div> </button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
