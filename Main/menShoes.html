@@ -1,25 +1,283 @@
 <!DOCTYPE html>
 
 <html>
+<!-- Meta data ----------------------------------------------------------------------------------->
 <head>
-    <title>Men's Shoes</title>
+    <title>Men's shoes</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/e1e3b55e7b.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+<!------------------------------------------------------------------------------------------------>
 
+<!-- Header section ------------------------------------------------------------------------------>
+<header>
+   <h1>Viking Shoes</h1>
+</header>
+<nav class="nav-menu">
+    <ul class="nav-links">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="menShoes.html">MENS SHOES</a></li>
+        <li><a href="womenShoes.html">WOMENS SHOES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+    <div class="bag-search-login">
+        <input id="search-bar" type="text" placeholder="Search...">
+        <i id="bag-icon" class="fa-solid fa-bag-shopping"></i>
+        <a href="../Login/login.html">  <i id="login-icon" class="fa-solid fa-right-to-bracket"></i> </a>
+    </div>
+</nav>
+<!------------------------------------------------------------------------------------------------>
 
-    
+<!-- Body section -------------------------------------------------------------------------------->
+<section class="filter-and-products-container">
+    <!-- filter container-->
+    <div class="filter-container">   
+        <h2>Men's shoes:</h2>
+        <i class="line"></i>
+        <div class="checkbox-container">
+            <h3>Running shoes</h3> 
+            <input type="checkbox" class="checkbox">
+        </div>
+        <ul>
+            <li>Nike Air Zoom Pegasus</li>
+            <li>Under Armour Charged</li>
+            <li>Adidas Adizero SL</li>
+        </ul>
+        <i class="line"></i>
+        <div class="checkbox-container">
+            <h3>Soccer shoes</h3> 
+            <input type="checkbox" class="checkbox">
+        </div>
+        <i class="line"></i>
+        <div class="checkbox-container">
+            <h3>Rugby shoes</h3> 
+            <input type="checkbox" class="checkbox">
+        </div>
+        <i class="line"></i>
+        <div class="checkbox-container">
+            <h3>Basketball shoes</h3> 
+            <input type="checkbox" class="checkbox">
+        </div>
+    </div>
+    <!-- products container-->
+    <div class="product-container">
+        <!-- product row -->
+        <div class="product-row">   
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Nike Air Zoom Pegasus</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product2.png">
+                <h3 class="name">Under Armour Charged</h3>
+                <h4 class="price">$89.75 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product3.png">
+                <h3 class="name">Adidas Adizero SL</h3>
+                <h4 class="price">$119.99</h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product row -->
+        <div class="product-row">   
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product row -->
+        <div class="product-row">   
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product row -->
+        <div class="product-row">   
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="media/product1.png">
+                <h3 class="name">Product name</h3>
+                <h4 class="price">$139.99 <strong>SALE</strong></h4>
+                <div class="btn-stars">
+                    <button class="add-to-cart">Add to cart</button>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------------------------------------------>
 
-
-    
-
-
-
-
-
-
+<!-- Footer section ------------------------------------------------------------------------------>
+<footer>
+    <nav class="footer-icons">
+        <div class="icons">
+            <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.google.com/"> <i class="fa-brands fa-google"></i> </a>
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </nav>  
+    <div class="img-container">
+        <img id="footer-image" src="media/image1.jpg">
+        <div class="shade"></div>
+    </div>
+</footer>
+<!------------------------------------------------------------------------------------------------>
 
 </body>
 </html>
