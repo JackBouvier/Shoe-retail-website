@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overscroll-behavior-y: none;
+}
+
+/* Header styling----------------------------------------------------------------------------------------*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+header h1{
+    color: white;
+    font-size: 6rem;
+    padding: 2rem 4rem;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* Nav menu styling--------------------------------------------------------------------------------------*/
+.nav-menu {
+    top: 0px;
+    position: sticky;
+    background: linear-gradient(to right,rgb(255, 230, 0), rgb(252, 219, 84));
+    font-size: 2.3rem;
+    width: 100%;
+    padding: 1.3rem 5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 15rem
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100rem;
+    list-style-type: none;
+}
+.nav-links li a{
+    color: black;
+    text-decoration: none;
+}
+/* Hover effect for nav elements */
+.nav-links li::after{
+    content: '';
+    width: 0%;
+    height: 0.4rem;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+.nav-links li:hover::after{
+    width: 100%;
+}
+/* Bag Login and search bar container */
+.bag-search-login{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 3rem;
+}
+/* Bag */
+#bag-icon{ 
+    font-size: 3.5rem;
+    transition: 0.2s;
+}
+#bag-icon:hover{
+    font-size: 4rem;
+}
+/* Login */
+#login-icon{ 
+    padding-top: 0.7rem;
+    font-size: 3.5rem;
+    transition: 0.2s;
+}
+#login-icon:hover{
+    padding-top: 0.25rem;
+    font-size: 4rem;
+}
+/* Search bar */
+#search-bar{ 
+    font-size: 2rem;
+    width: 30rem;
+}
+input[type=text] {
+    float: right;
+    padding: 0.5rem;
+    border: 0.3rem solid black;
+    padding-left: 2rem;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* body styling------------------------------------------------------------------------------------------*/
+.body{
+    height: 40rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* footer styling----------------------------------------------------------------------------------------*/
+footer{
+    display: absolute;
+    bottom: 0rem;
+}
+.footer-icons{
+    background: linear-gradient(to right,rgb(255, 230, 0), rgb(252, 219, 84));
+    padding: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons{
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 40rem;
+}
+a{
+    color: black;
+}
+.fa-brands:hover{
+    font-size: 3.5rem;
+    transition: 0.2s;
+}
+.fa-solid:hover{
+    font-size: 3.5rem;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* Media queries------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 2700px){
+    html {
+        font-size: 75%;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------*/

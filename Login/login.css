@@ -51,7 +51,7 @@
     position: absolute;
     width: 20rem;
     height: 100%;
-    background: linear-gradient(to right, rgb(255, 213, 0),rgb(254, 178, 2));
+    background: linear-gradient(to right,rgb(255, 230, 0), rgb(252, 219, 84));
     border-radius: 10rem;
     transition: 0.5s;
 }
@@ -59,7 +59,7 @@ span:hover{
     font-weight: 800;
 }
 .log-hover:hover{
-    color: white;
+    font-weight: 800;
 }
 
 /* social media icons */
@@ -74,7 +74,7 @@ span:hover{
     margin-bottom: 3rem;
 }
 .fa-brands:hover{
-    color: rgb(254, 178, 2);
+    color: rgb(252, 219, 84);
     transition: 0.2s;
 }
 a{
@@ -123,7 +123,7 @@ p{
     cursor: pointer;
     display: block;
     margin: 8rem auto;
-    background: linear-gradient(to right, rgb(255, 213, 0),rgb(254, 178, 2));
+    background: linear-gradient(to right,rgb(255, 230, 0), rgb(252, 219, 84));
     border: 0;
     outline: none;
     border-radius: 1rem;
@@ -132,7 +132,7 @@ p{
     box-shadow: 0 0 0.1em 0.1em rgba(0,0,0,0.1);
 }
 .login-hover:hover{
-    color: white;
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 1000px){
