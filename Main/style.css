@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     overscroll-behavior-y: none;
+    scroll-behavior: smooth;
 }
 
 /* Header styling----------------------------------------------------------------------------------------*/
@@ -25,7 +26,6 @@ header h1{
     position: sticky;
     background: linear-gradient(to right,rgb(255, 230, 0), rgb(252, 219, 84));
     font-size: 2.3rem;
-    width: 100%;
     padding: 1.3rem 5rem;
     font-weight: bold;
     display: flex;
@@ -104,16 +104,21 @@ input[type=text] {
     display: flex;
     justify-content: space-between;
 }
+#title{
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+    padding-left: 6rem;
+    margin-top: 4rem;
+}
 .filter-container{
-    height: 60rem;
-    width: 35rem;
+    height: 110rem;
+    width: 30rem;
     margin: 4rem 4.5rem;
     display: flex;
     flex-direction: column;
-}
-.filter-container h2{
-    font-size: 2.8rem;
-    padding: 1rem 2rem;
+    margin-top: 14rem;
 }
 .filter-container h3{
     font-size: 2rem;
@@ -121,9 +126,14 @@ input[type=text] {
     padding: 1rem;
     padding-left: 2rem;
 }
+.line2{
+    border: solid black 0.15rem;
+    margin: 0 2rem;
+}
 .line{
     border: solid black 0.15rem;
     margin: 0 2rem;
+    margin-top: 5rem;
 }
 .checkbox-container{
     display: flex;
@@ -135,7 +145,17 @@ input[type=text] {
     transform: scale(2);
     margin-top: 0.2rem;
 }
-
+.filter-container ul{
+    margin-left: 4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 14rem;
+    margin-bottom: 1rem;
+}
 /* products-container*/
 .product-container{
     display: flex;
@@ -228,11 +248,6 @@ input[type=text] {
 
 
 
-/* body styling------------------------------------------------------------------------------------------*/
-.body{
-    height: 60rem;
-}
-/*-------------------------------------------------------------------------------------------------------*/
 
 /* footer styling----------------------------------------------------------------------------------------*/
 footer{
@@ -278,6 +293,10 @@ a{
     position:absolute;
     bottom:0;
 }
+#footer-image2{
+    width: 100%;
+    position:absolute;
+}
 .shade{
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
@@ -291,6 +310,12 @@ a{
 @media only screen and (max-width: 2700px){
     html {
         font-size: 75%;
+    }
+}
+
+@media only screen and (min-width: 3400px){
+    html {
+        font-size: 120%;
     }
 }
 /* ------------------------------------------------------------------------------------------------------*/
