@@ -94,7 +94,6 @@ input[type=text] {
     border: 0.3rem solid black;
     padding-left: 2rem;
 }
-
 /*-------------------------------------------------------------------------------------------------------*/
 
 /* Shoes content-----------------------------------------------------------------------------------------*/
@@ -426,20 +425,19 @@ form .input2 {
 /* title styling */
 #heading{
     margin-left: 4.5rem;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 #sub-heading{
     margin-left: 4.5rem;
     margin-right: 7rem;
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 2rem;
-    margin-bottom: 4rem;
 }
 /* about info */
 .image-text-container-home{
+    margin-top: 6rem;
     display: flex;
     justify-content: space-between;
     gap: 4rem;
@@ -452,7 +450,7 @@ form .input2 {
 .home-map-container{
     margin-left: 4rem;
     margin-right: 7rem;
-    margin-top: 5rem;
+    margin-top: 8rem;
     display: flex;
     justify-content: space-between;
     height: 20rem;
@@ -475,11 +473,9 @@ form .input2 {
     border: none;
     border-radius: 1rem;
 }
-
-
 /* items on sale */
 #sale{
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-left: 4rem;
     font-size: 4rem;
     font-weight: 600;
@@ -488,7 +484,7 @@ form .input2 {
 #sale Strong{
     color: red;
 }
-.home h1::after{
+#sale::after{
     content: "";
     display: block;
     width: 95%;
