@@ -113,7 +113,7 @@ input[type=text] {
 }
 .filter-container{
     height: 110rem;
-    width: 30rem;
+    width: 20%;
     margin: 4rem 4.5rem;
     display: flex;
     flex-direction: column;
@@ -158,18 +158,21 @@ input[type=text] {
 /* products-container*/
 .product-container{
     display: flex;
-    /* border: solid red 0.3rem; */
+    width: 75%;
     justify-content: space-between;
     flex-direction: column;
     height: 100%;
+    margin-right: 8rem;
 }
 .product-row{
     height: 52rem;
     margin: 4rem 4rem;
     display: flex;
+    width: 100%;
     /* border: solid red 0.3rem; */
     width: 130rem;
     justify-content: space-between;
+    margin-right: 8rem;
 }
 /* product stuff */
 .product{
@@ -418,7 +421,7 @@ form .input2 {
 .home{
     display: flex;
     justify-content: space-around;
-    margin: 4rem 8rem;
+    margin: 4rem 3.5rem;
     flex-direction: column;
     margin-bottom: 8rem;
 }
@@ -563,6 +566,9 @@ a{
 @media only screen and (max-width: 2700px){
     html {
         font-size: 75%;
+    }
+    .product-container{
+        width: 110%;
     }
 }
 
