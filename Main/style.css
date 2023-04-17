@@ -212,9 +212,10 @@ input[type=text] {
 .add-to-cart{
     font-size: 2rem;
     font-weight: 600;
-    padding: 0.4rem 0.4rem;
+    padding: 0.4rem 0.7rem;
     margin-left: 2rem;
     background-color: rgb(255, 230, 0);
+    border-radius: 0.5rem;
 }
 .add-to-cart:hover{
     color: rgb(255, 230, 0);
@@ -225,97 +226,284 @@ input[type=text] {
     justify-content: left;
     gap: 0.4rem;
     color: black;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 /*-------------------------------------------------------------------------------------------------------*/
 
 /* Contact form------------------------------------------------------------------------------------------*/
+/* form styling */
+.form-text-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 4rem;
+    flex-direction: row;
+}
 .contact form {
     background-color: #f7f7f7;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-  }
-  
-  .contact form label {
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 55%;
+}
+.contact form label {
     display: block;
-    margin-bottom: 10px;
-  }
-  
-  .contact form input[type="text"],
-  .contact form input[type="email"],
-  .contact form input[type="tel"],
-  .contact form textarea {
-    width: 100%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+form .input {
+    margin-left: 1rem;
+    width: 96%;
     padding: 10px;
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .contact form textarea {
-    resize: vertical;
-    min-height: 150px;
-  }
-  
-  .contact form input[type="submit"] {
-    background-color: #ffc107;
-    color: #000;
+    font-size: 1rem;
+}
+form .input2 {
+    margin-left: 1rem;
+    width: 96%;
+    height: 7rem;
+    padding: 10px;
+    margin-bottom: 20px;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .contact form input[type="submit"]:hover {
-    background-color: #000;
-    color: #ffc107;
-  }
-  
-  /* Styling for the embedded Google Maps iframe */
-  .contact iframe {
-    width: 100%;
-    height: 400px;
+    font-size: 1rem;
+}
+.contact form input[type="submit"]{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.7rem 0.7rem;
+    margin-left: 1rem;
+    background-color: rgb(255, 230, 0);
     border: none;
-    border-radius: 10px;
-    margin-bottom: 30px;
-  }
-  
-  /* Styling for the paragraphs of text */
-  .contact p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    color: #000;
-  }
-
-
-
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.contact form input[type="submit"]:hover{
+    color: rgb(255, 230, 0);
+    background-color: black;
+}
+/* Contact text */
+.contact-text{
+    border-radius: 1rem;
+    margin: 1rem 2rem;
+    width: 40%;
+}
+.contact-text h2{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+.contact-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.icon-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 2rem;
+    flex-direction: row;
+    background-color: rgb(255, 230, 0);
+    font-size: 3rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+/* Styling for the embedded Google Maps iframe */
+.contact .map-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 4rem;
+    margin-left: 6rem;
+    height: 50rem;
+}
+.contact iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 1rem;
+}
 /*-------------------------------------------------------------------------------------------------------*/
 
 /* About page -------------------------------------------------------------------------------------------*/
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 8rem;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 8rem;
+}
+/* title styling */
+.title h1{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.title p{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+/* imgae and text */
+.image-text-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-direction: row;
+    height: 48rem;
+}
+.story-values-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+}
+#image-container{
+    width: 50%;
+}
+#about-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+/* sotry  and values text*/
+.story{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+.values{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+.values ul{
+    padding-left: 1.1em;
+}
+/* location info */
+.location-map-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+    flex-direction: row;
+}
+.location-text{
+    width: 40%;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+}
+.about .map-container {
+    height: 100%;
+    width: 60%;
+}
+.about iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* Home styling------------------------------------------------------------------------------------------*/
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 8rem;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+/* title styling */
+#heading{
+    margin-left: 4.5rem;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+#sub-heading{
+    margin-left: 4.5rem;
+    margin-right: 7rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+/* about info */
+.image-text-container-home{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-direction: row;
+    height: 48rem;
+    margin-left: 4rem;
+    margin-right: 7rem;
+}
+/* location info */
+.home-map-container{
+    margin-left: 4rem;
+    margin-right: 7rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+    flex-direction: row;
+}
+.home-text{
+    width: 43%;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+}
+.home .map-container {
+    height: 100%;
+    width: 60%;
+}
+.home iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+}
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* items on sale */
+#sale{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+#sale Strong{
+    color: red;
+}
+.home h1::after{
+    content: "";
+    display: block;
+    width: 95%;
+    height: 0.5rem;
+    background-color: black;
+    margin-top: 1rem;
+    border-radius: 10rem;
+}
+.product-row2{
+    height: 52rem;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+}
 /*-------------------------------------------------------------------------------------------------------*/
 
 /* footer styling----------------------------------------------------------------------------------------*/
@@ -354,7 +542,7 @@ a{
 .img-container{
     overflow: hidden;
     width: 100%;
-    height: 40rem;
+    height: 30rem;
     position:relative;
 }
 #footer-image{
