@@ -17,6 +17,7 @@ header h1{
     color: white;
     font-size: 6rem;
     padding: 2rem 4rem;
+    margin-left: 0.7em;
 }
 /*-------------------------------------------------------------------------------------------------------*/
 
@@ -40,6 +41,7 @@ header h1{
     flex-direction: row;
     width: 100rem;
     list-style-type: none;
+    margin-left: 3.3rem;
 }
 .nav-links li a{
     color: black;
@@ -108,8 +110,8 @@ input[type=text] {
     font-size: 4rem;
     font-weight: 600;
     padding: 1rem;
-    padding-left: 6rem;
     margin-top: 4rem;
+    margin-left: 7rem;
 }
 .filter-container{
     height: 110rem;
@@ -118,6 +120,7 @@ input[type=text] {
     display: flex;
     flex-direction: column;
     margin-top: 14rem;
+    margin-left: 6rem;
 }
 .filter-container h3{
     font-size: 2rem;
@@ -158,7 +161,7 @@ input[type=text] {
 /* products-container*/
 .product-container{
     display: flex;
-    width: 75%;
+    width: 72%;
     justify-content: space-between;
     flex-direction: column;
     height: 100%;
@@ -239,6 +242,7 @@ input[type=text] {
     justify-content: space-between;
     margin: 4rem 4rem;
     flex-direction: row;
+    margin-left: 5.1rem;
 }
 .contact form {
     background-color: #f7f7f7;
@@ -290,7 +294,7 @@ form .input2 {
 /* Contact text */
 .contact-text{
     border-radius: 1rem;
-    margin: 1rem 2rem;
+    margin: 0rem 2rem;
     width: 40%;
 }
 .contact-text h2{
