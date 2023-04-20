@@ -26,11 +26,24 @@
     </ul>
     <div class="bag-search-login">
         <input id="search-bar" type="text" placeholder="Search...">
-        <i id="bag-icon" class="fa-solid fa-bag-shopping"></i>
+        <div class="dropdown">
+            <button class="dropbtn"> <i id="bag-icon" class="fa-solid fa-bag-shopping"></i> </button>
+            <div class="dropdown-content">
+              <h3>Bag : </h3>
+              <p>Explore the shop...</p>
+            </div>
+          </div>
         <a href="../Login/login.html">  <i id="login-icon" class="fa-solid fa-right-to-bracket"></i> </a>
     </div>
 </nav>
 <!------------------------------------------------------------------------------------------------>
+
+<div id="pop">
+    <div class="popup">
+        <h2>Message sent!</h2>
+        <button type="button" class="return-btn"  onclick="location.href='contact.html'"> <div class="resgister-hover">Return</div> </button>
+    </div>
+</div>
 
 <!-- Body section -------------------------------------------------------------------------------->
 <section class="contact">
@@ -62,7 +75,7 @@
             <input type="tel" class="input" required>     
             <label for="message">Message</label>
             <textarea class="input2" required></textarea>      
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" onclick="openPop(event)">
         </form>
     </div>  
     <div class="map-container">
@@ -90,6 +103,14 @@
     </div>
 </footer>
 <!------------------------------------------------------------------------------------------------>
+
+<script>
+    var a = document.getElementById("pop"); 
+    function openPop(e){
+        e.preventDefault()
+        a.style.visibility = "visible";
+    }
+</script>
 
 </body>
 </html>
