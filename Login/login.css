@@ -110,7 +110,7 @@ a{
     gap: 1rem;
 }
 .checkbox{
-    transform: scale(2);
+    transform: scale(1);
 }
 p{
     color: #777;
@@ -136,14 +136,14 @@ p{
     font-weight: 800;
 }
 
-@media only screen and (max-width: 2700px){
+@media only screen and (max-width: 1800px){
     html {
-        font-size: 70%;
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width: 1700px){
+    html {
+        font-size: 40%;
     }
 }
 
-@media only screen and (min-width: 3400px){
-    html {
-        font-size: 120%;
-    }
-}

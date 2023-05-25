@@ -94,7 +94,7 @@ span:hover{
     gap: 1rem;
 }
 .checkbox{
-    transform: scale(2);
+    transform: scale(1);
 }
 p{
     color: #777;
@@ -192,18 +192,15 @@ h2{
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 2700px){
+@media only screen and (max-width: 1800px){
     html {
-        font-size: 70%;
+        font-size: 50%;
     }
-    .form-container{
-        width: 45rem;
-        margin-top: 5rem;
+}
+@media only screen and (max-width: 1700px){
+    html {
+        font-size: 40%;
     }
 }
 
-@media only screen and (min-width: 3400px){
-    html {
-        font-size: 120%;
-    }
-}
+
